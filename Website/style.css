@@ -6,3 +6,21 @@
     box-sizing: border-box;
 }
 
+:root {
+    --cor0: #000000;
+    --cor2: #7bc5bf;
+    --cor3: #00e846;
+
+    --fonte-padrao: Arial, Verdana, helvetica, sans-serif;
+    --fonte-moderna: ;
+}
+
+header {
+    background-color: var(--cor0);
+    color: white;
+}
+
+header > img {
+    width: 28vw;
+    height: 10vh;
+}
