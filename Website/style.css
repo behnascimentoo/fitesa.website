@@ -18,47 +18,51 @@
 html, body {
     font-family: var(--fonte-padrao);
     font-size: 1em;
-    background-color: black;
+    background-color: white;
     color: var(--cor0);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 header {
-    padding-bottom: 50px;  
-    background-color: var(--cor0);  
+    background-color: white;  
 }
 
 header > img#logof {
     width: 350px;
     height: 180px;
-    margin-right: 550px;
+    margin-left: 100px;
 }
 
 header > img#logoc {
-    width: 140px;
-    height: 100px;
-    margin-left: 300px;
+    width: 250px;
+    height: 170px;
+    margin-left: 44px;
 }
 
-div#titulo {
-    padding: 5px;
-    margin: 5px;
-    text-align: center;
+header > img#logop {
+    width: 130px;
+    height: 80px;
+    margin: 0px 0px 48px 130px;
 }
 
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
-    padding-left: 30px;
     font-family: var(--font3);
     font-size: 1vw;
 }
 
+section.imginicio > img {
+    background-color: var(--cor0);
+    width: 400px;
+    }
+
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
+    padding: 200px 0px 200px 0px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
@@ -67,25 +71,39 @@ section.imagem {
 
 section.imagem > p {
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
+    width: 500px;
+    height: 100px;
+    
 }
 
 section#empresa {
-    background-image: url(imagens/banner-maeebebe-branco.jpg);
-    background-position: right center;
+    background-image: url(imagens/fitesa-predio.jpg);
+
 }
 
 section#caldeira {
     background-image: url(imagens/caldeira.jpg);
+    background-position:right bottom;
 }
 
+section#selecionados {
+    background-image: url(imagens/alunos.jpg);
+    padding-top: 100px;
+}
 
 section#selecionados > h1{
-    font-size: 2.5em;
+    font-size: 3em;
+    font-weight: bolder;
     text-align: center;
-    margin: 40px;
+    color: white;
+    margin-bottom: 40px;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 
 div.alunos {
@@ -96,7 +114,6 @@ div.alunos {
     padding: 10px;
     width: 400px;
     height: 400px;
-    margin-left: 530px;
     font-size: 1em;
     text-align: left;
 }
@@ -117,8 +134,6 @@ div.fotob {
     padding: 10px;
     width: 400px;
     height: 400px;
-    margin-left: 530px;
-
 }
 
 div#fotob {
@@ -137,8 +152,6 @@ div.foton {
     padding: 10px;
     width: 400px;
     height: 400px;
-    margin-left: 530px;
-    font-size: 1em;
 }
 
 div#foton {
