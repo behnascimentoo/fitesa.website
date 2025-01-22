@@ -15,24 +15,24 @@
     --fonte-moderna: ;
 }
 
-body {
+html, body {
     font-family: var(--fonte-padrao);
     font-size: 1em;
-    background-color: white;
+    background-color: black;
     color: var(--cor0);
     width: 100vw;
     height: 100vh;
 }
 
 header {
-    padding-bottom: 50px;
-    
+    padding-bottom: 50px;  
+    background-color: var(--cor0);  
 }
 
 header > img#logof {
     width: 350px;
     height: 180px;
-    margin-right: 950px;
+    margin-right: 550px;
 }
 
 header > img#logoc {
@@ -47,42 +47,40 @@ div#titulo {
     text-align: center;
 }
 
-div#empresa {
-    display: inline-block;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: var(--cor2);
-    padding: 10px;
-    width: 900px;
-    height: 500px;
-    font-size: 1em;
-    text-align: left;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 1vw;
 }
 
-div#fotoe {
-    background-image: url('imagens/banner-maebebe-azul.jpg');
-    background-position: right center;
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
+    background-attachment: fixed;
+
 }
 
-div#caldeira {
+section.imagem > p {
     display: inline-block;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: var(--cor3);
-    padding: 10px;
-    width: 900px;
-    height: 500px;
-    font-size: 1em;
-    text-align: left;
-
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 
-div.fotoc {
-    background-image: url('imagens/caldeira.jpg');
+section#empresa {
+    background-image: url(imagens/banner-maeebebe-branco.jpg);
     background-position: right center;
-    background-size: cover;
 }
+
+section#caldeira {
+    background-image: url(imagens/caldeira.jpg);
+}
+
 
 section#selecionados > h1{
     font-size: 2.5em;
