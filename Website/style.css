@@ -18,8 +18,8 @@
 body {
     font-family: var(--fonte-padrao);
     font-size: 1em;
-    background-color: var(--cor0);
-    color: white;
+    background-color: white;
+    color: var(--cor0);
     width: 100vw;
     height: 100vh;
 }
@@ -51,27 +51,37 @@ div#empresa {
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(138, 81, 81);
+    background-color: var(--cor2);
     padding: 10px;
-    width: 700px;
-    height: 200px;
-    margin-left: 530px;
+    width: 900px;
+    height: 500px;
     font-size: 1em;
     text-align: left;
+}
+
+div#fotoe {
+    background-image: url('imagens/banner-maebebe-azul.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 div#caldeira {
     display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(138, 81, 81);
+    background-color: var(--cor3);
     padding: 10px;
-    width: 700px;
-    height: 200px;
-    margin-left: 530px;
+    width: 900px;
+    height: 500px;
     font-size: 1em;
     text-align: left;
 
+}
+
+div.fotoc {
+    background-image: url('imagens/caldeira.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 section#selecionados > h1{
@@ -101,6 +111,17 @@ div.alunos > h1 {
 
 /* Config article Brenda*/
 
+div.fotob {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(138, 81, 81);
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    margin-left: 530px;
+
+}
 
 div#fotob {
     background-image: url('imagens/brenda.jpg');
@@ -110,6 +131,17 @@ div#fotob {
 
 /* Config article Noah*/
 
+div.foton {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(138, 81, 81);
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    margin-left: 530px;
+    font-size: 1em;
+}
 
 div#foton {
     background-image: url('imagens/noah.jpg');
