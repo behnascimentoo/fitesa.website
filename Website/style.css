@@ -26,18 +26,19 @@ body {
 
 header {
     padding-bottom: 50px;
+    
 }
 
 header > img#logof {
     width: 350px;
     height: 180px;
-    margin-right: 350px;
+    margin-right: 950px;
 }
 
 header > img#logoc {
     width: 140px;
     height: 100px;
-    margin-left: 400px;
+    margin-left: 300px;
 }
 
 div#titulo {
@@ -47,23 +48,113 @@ div#titulo {
 }
 
 div#empresa {
-    padding: 400px 20px 70px 100px;
-    background-image: url(imagens/banner-maeebebe-branco.jpg);
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(138, 81, 81);
+    padding: 10px;
+    width: 700px;
+    height: 200px;
+    margin-left: 530px;
+    font-size: 1em;
+    text-align: left;
 }
 
 div#caldeira {
-    padding: 400px 20px 70px 100px;
-    background-image: url(imagens/caldeira.jpg);
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(138, 81, 81);
+    padding: 10px;
+    width: 700px;
+    height: 200px;
+    margin-left: 530px;
+    font-size: 1em;
+    text-align: left;
 
 }
 
-section#selecionados {
+section#selecionados > h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin: 40px;
 }
 
-header > img {
-    width: 28vw;
-    height: 10vh;
+div.alunos {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(138, 81, 81);
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    margin-left: 530px;
+    font-size: 1em;
+    text-align: left;
+}
+
+div.alunos > h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+}
+
+/* Config article Brenda*/
+
+
+div#fotob {
+    background-image: url('imagens/brenda.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+
+/* Config article Noah*/
+
+
+div#foton {
+    background-image: url('imagens/noah.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+
+/* Config article fulana */
+
+div#foton {
+    background-image: url('imagens/noah.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+
+aside.redesf {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(138, 81, 81);
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    margin-left: 500px;
+    font-size: 1em;
+    text-align: left;
+}
+
+aside.redesc {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(138, 81, 81);
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    margin-left: 130px;
+    font-size: 1em;
+    text-align: left;
+}
+
+
+footer {
+    background-color: var(--cor2);
+    color: var(--cor0);
+    text-align: center;
+    padding: 10px;
 }
