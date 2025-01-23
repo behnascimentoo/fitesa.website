@@ -28,22 +28,23 @@ header {
     background-color: white;  
 }
 
-header > img#logof {
-    width: 350px;
-    height: 180px;
-    margin-left: 100px;
+header > div#logofit {
+    background-color: #7bc5bf;
+    display:  flex;
+    height: 200px;
 }
 
-header > img#logoc {
-    width: 250px;
-    height: 170px;
-    margin-left: 44px;
+header > div#logocal {
+    background-color: #7bc5bf;
+    display: flex;
+    height: 260px;
 }
 
-header > img#logop {
-    width: 130px;
-    height: 80px;
-    margin: 0px 0px 48px 130px;
+header > div#logofutp {
+    background-color: #7bc5bf;
+    display: flex;
+    height: 120px;
+
 }
 
 section {
@@ -54,39 +55,38 @@ section {
     font-size: 1vw;
 }
 
-section.imginicio > img {
-    background-color: var(--cor0);
-    width: 400px;
-    }
 
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
-    padding: 200px 0px 200px 0px;
+    padding: 200px 0px 50px 0px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
 
 }
 
-section.imagem > p {
+div#texto {
     display: inline-block;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
     width: 500px;
-    height: 100px;
-    
+    height: 250px;
+    margin: 200px 0px 0px 80px;
+    border-radius: 20px 0px 20px;
 }
 
 section#empresa {
     background-image: url(imagens/fitesa-predio.jpg);
-
+    background-position: top top;
+   
 }
+
 
 section#caldeira {
     background-image: url(imagens/caldeira.jpg);
-    background-position:right bottom;
+    background-position: right bottom;
 }
 
 section#selecionados {
@@ -99,11 +99,13 @@ section#selecionados > h1{
     font-weight: bolder;
     text-align: center;
     color: white;
-    margin-bottom: 40px;
-    display: inline-block;
-    padding: 10px;
+    padding: 15px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
+    display: inline-block;
+    width: 1300px;
+    height: 80px;
+    margin-left: 300px;
 }
 
 div.alunos {
