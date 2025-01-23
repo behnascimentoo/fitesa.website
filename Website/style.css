@@ -109,37 +109,39 @@ section#selecionados > h1{
     height: 80px;
 }
 
+div.alunos > h1 {
+    text-align: center;
+    font-size: 2.5em;
+    padding: 15px;
+}
+
+div.alunos > p#txt  {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
 div.alunos {
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgb(138, 81, 81);
     padding: 10px;
-    width: 550px;
+    width: 450px;
     height: 430px;
     text-align: left;
-    
+    margin-left: 250px;
 }
 
-div.alunos > h1 {
-    text-align: center;
-    font-size: 2em;
-    padding: 15px;
+div.fotos {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    width: 400px;
+    height: 400px;
+    margin-left: 700px;
 }
 
 /* Config article Brenda*/
-
-div.fotob {
-    border: 2px solid black;
-    display: block;
-    border-radius: 10px;
-    background-color: rgb(138, 81, 81);
-    padding: 10px 10px 500px 10px;
-    width: 400px;
-    height: 400px;
-    margin-left: 100px;
-    margin-bottom: 1000px;
-}
-
 div#fotob {
     background-image: url('imagens/brenda.jpg');
     background-position: top center;
@@ -147,22 +149,7 @@ div#fotob {
 
 }
 
-div#txtb > p  {
-    font-size: 1em;
-}
-
 /* Config article Noah*/
-
-div.foton {
-    display: inline-block;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: rgb(138, 81, 81);
-    padding: 10px 10px 500px 10px;
-    width: 400px;
-    height: 400px;
-}
-
 div#foton {
     background-image: url('imagens/noah.jpg');
     background-position: top center;
@@ -170,16 +157,6 @@ div#foton {
 }
 
 /* Config article fulana */
-
-div.fotom {
-    display: inline-block;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: rgb(138, 81, 81);
-    padding: 10px 10px 500px 10px;
-    width: 400px;
-    height: 400px;
-}
 div#fotom {
     background-image: url(imagens/brenda.jpg);
     background-position: top center;
