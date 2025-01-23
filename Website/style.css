@@ -64,13 +64,23 @@ section.imagem {
 
 div#texto {
     display: inline-block;
-    padding: 10px;
+    padding: 20px 15px 15px 30px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
     width: 500px;
     height: 250px;
     margin: 200px 0px 0px 80px;
     border-radius: 20px 0px 20px;
+}
+
+div#texto > h1 {
+    padding-top: 10px;
+    font-size: 2em;
+}
+
+div#texto > p {
+    padding-top: 10px;
+    font-size: 1.5em;
 }
 
 section#empresa {
@@ -95,9 +105,7 @@ section#selecionados > h1{
     text-align: center;
     color: white;
     padding: 15px;
-    background-color: rgba(0, 0, 0, 0.514);
-    text-shadow: 1px 1px 0px black;
-    width: 100px;
+    text-shadow: 2px 2px 0px black;
     height: 80px;
 }
 
