@@ -62,13 +62,24 @@ section.imagem {
 
 }
 
-div#texto {
+div.txtemp {
     display: inline-block;
     padding: 20px 15px 15px 30px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
     width: 500px;
     height: 250px;
+    margin: 200px 0px 0px 80px;
+    border-radius: 20px 0px 20px;
+}
+
+div.txtcal {
+    display: inline-block;
+    padding: 20px 15px 15px 30px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+    width: 500px;
+    height: 300px;
     margin: 200px 0px 0px 80px;
     border-radius: 20px 0px 20px;
 }
@@ -111,42 +122,48 @@ section#selecionados > h1{
 
 div.alunos > h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.5em;
     padding: 15px;
 }
 
 div.alunos > p#txt  {
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: justify;
 }
 
 div.alunos {
+
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 30px 0px 0px 30px;
     background-color: rgb(138, 81, 81);
     padding: 10px;
-    width: 450px;
+    width: 400px;
     height: 430px;
-    text-align: left;
-    margin-left: 250px;
 }
 
 div.fotos {
-    display: inline-block;
     border: 2px solid black;
     border-radius: 10px;
-    padding: 10px 10px 10px 10px;
     width: 400px;
-    height: 400px;
-    margin-left: 700px;
+    height: 430px;
 }
+
 
 /* Config article Brenda*/
 div#fotob {
     background-image: url('imagens/brenda.jpg');
     background-position: top center;
     background-size: cover;
+    border-radius: 0px 30px 30px 0px;
 
+}
+
+article.brenda {
+    background-color: rgba(0, 0, 0, 0.521);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 /* Config article Noah*/
@@ -154,6 +171,16 @@ div#foton {
     background-image: url('imagens/noah.jpg');
     background-position: top center;
     background-size: cover;
+    border-radius: 0px 30px 30px 0px;
+
+}
+
+article.noah {
+        background-color: rgba(0, 0, 0, 0.521);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
 }
 
 /* Config article fulana */
@@ -161,6 +188,16 @@ div#fotom {
     background-image: url(imagens/brenda.jpg);
     background-position: top center;
     background-size: cover;
+    border-radius: 0px 30px 30px 0px;
+
+}
+
+article.manuela {
+        background-color: rgba(0, 0, 0, 0.521);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
 }
 
 article#rodape {
@@ -172,7 +209,6 @@ article#rodape {
 }
 
 aside.redesf {
-    display: inline-block;
     border: 2px solid black;
     padding: 10px;
     width: 400px;
@@ -183,7 +219,6 @@ aside.redesf {
 }
 
 aside.redesc {
-    display: inline-block;
     border: 2px solid black;
     padding: 10px;
     width: 400px;
