@@ -29,33 +29,24 @@ header {
     display: flex;  
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
 
     margin: 100px 0px 100px 0px;
 }
 
 header > div > img#logofit {
     padding: 0px 200px 21px 0px;
-    
+
 }
 
 header > div > img#logofutp {
-    padding: 0px 0px 0px 200px;
-    
-}
+    padding: 0px 0px 21px 200px;
 
-section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    font-family: var(--font3);
-    font-size: 1vw;
 }
 
 section.imagem {
     background-color: rgb(51, 51, 51);
-    color: white;
-    padding: 200px 0px 50px 0px;
+    color: white;    
+    padding: 130px 0px 50px 0px;    
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
@@ -63,7 +54,7 @@ section.imagem {
 }
 
 div.txtemp {
-    display: inline-block;
+    font-family: var(--fonte-padrao);
     padding: 20px 15px 15px 30px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
@@ -71,17 +62,21 @@ div.txtemp {
     height: 250px;
     margin: 200px 0px 0px 80px;
     border-radius: 20px 0px 20px;
+    line-height: 2em;
+
 }
 
 div.txtcal {
-    display: inline-block;
+    font-family: var(--fonte-padrao);
     padding: 20px 15px 15px 30px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
     width: 500px;
-    height: 300px;
+    height: 250px;
     margin: 200px 0px 0px 80px;
     border-radius: 20px 0px 20px;
+    line-height: 2em;
+
 }
 
 div#texto > h1 {
@@ -107,17 +102,19 @@ section#caldeira {
 
 section#selecionados {
     background-image: url(imagens/alunos.jpg);
-    padding-top: 100px;
 }
 
 section#selecionados > h1{
-    font-size: 3em;
+    display: flex;
+    font-size: 2.7em;
     font-weight: bolder;
     text-align: center;
     color: white;
-    padding: 15px;
     text-shadow: 2px 2px 0px black;
-    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+    flex-wrap: wrap;
 }
 
 div.alunos > h1 {
@@ -129,14 +126,19 @@ div.alunos > h1 {
 div.alunos > p#txt  {
     font-size: 1em;
     text-align: justify;
+    padding: 10px;
+    line-height: 1.5em;
+
+}
+
+div.alunos > p#h2 {
+    text-align: center;
 }
 
 div.alunos {
-
-    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
     border-radius: 30px 0px 0px 30px;
-    background-color: rgb(138, 81, 81);
-    padding: 10px;
     width: 400px;
     height: 430px;
 }
@@ -146,6 +148,8 @@ div.fotos {
     border-radius: 10px;
     width: 400px;
     height: 430px;
+}
+div.alunos > p {
 }
 
 
@@ -159,11 +163,11 @@ div#fotob {
 }
 
 article.brenda {
-    background-color: rgba(0, 0, 0, 0.521);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    margin-bottom: 10px;
 }
 
 /* Config article Noah*/
@@ -171,16 +175,17 @@ div#foton {
     background-image: url('imagens/noah.jpg');
     background-position: top center;
     background-size: cover;
-    border-radius: 0px 30px 30px 0px;
+    border-radius: 30px 0px 0px 30px;
 
 }
 
 article.noah {
-        background-color: rgba(0, 0, 0, 0.521);
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
+        margin-bottom: 10px;
+
 }
 
 /* Config article fulana */
@@ -193,11 +198,12 @@ div#fotom {
 }
 
 article.manuela {
-        background-color: rgba(0, 0, 0, 0.521);
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
+        margin-bottom: 10px;
+
 }
 
 article#rodape {
