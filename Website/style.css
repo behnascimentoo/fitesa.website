@@ -86,15 +86,6 @@ div.txtcal {
 
 }
 
-div#texto > h1 {
-    padding-top: 10px;
-    font-size: 2em;
-}
-
-div#texto > p {
-    padding-top: 10px;
-    font-size: 1.5em;
-}
 
 section#empresa {
     display: flex;
@@ -162,8 +153,7 @@ div.fotos {
     width: 400px;
     height: 450px;
 }
-div.alunos > p {
-}
+
 
 
 /* Config article Brenda*/
