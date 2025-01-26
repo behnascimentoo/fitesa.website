@@ -133,9 +133,9 @@ div.alunos > h1 {
 
 div.alunos > p#txt  {
     font-size: 1em;
-    text-align: left;
+    text-align: justify;
     padding: 10px;
-    line-height: 1em;
+    line-height: 1.7em;
 
 }
 
@@ -174,7 +174,7 @@ article.brenda {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
     margin-bottom: 10px;
 }
 
@@ -191,7 +191,7 @@ article.noah {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         margin-bottom: 10px;
 
 }
@@ -209,7 +209,7 @@ article.manuela {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: nowrap;
+        flex-wrap: wrap-reverse;
         margin-bottom: 10px;
 
 }
