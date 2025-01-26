@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 :root {
     --cor0: #000000;
     --cor2: #7bc5bf;
@@ -14,6 +15,7 @@
     --fonte-padrao: Arial, Verdana, helvetica, sans-serif;
     --fonte-moderna: ;
 }
+
 
 html, body {
     font-family: var(--fonte-padrao);
