@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+@media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
+    
+
+   
+}
 
 :root {
     --cor0: #000000;
