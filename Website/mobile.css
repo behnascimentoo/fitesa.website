@@ -63,8 +63,8 @@ section#empresa {
     display: flex;
     background-image: url(imagens/fitesa-predio.jpg);
     background-position: center top;
-    justify-content: left;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: center;
    
 }
 
@@ -72,8 +72,8 @@ section#caldeira {
     display: flex;
     background-image: url(imagens/caldeira.jpg);
     background-position: right bottom;
-    justify-content: left;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 section#selecionados {
