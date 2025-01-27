@@ -49,35 +49,26 @@ header > div > img#logofutp {
     
 }
 
-section.imagem {
-    background-color: rgb(51, 51, 51);
-    color: white;    
-    padding: 130px 0px 50px 0px;    
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
-    background-size: cover;
-    background-attachment: fixed;
-
-}
 
 section#empresa {
-    display: flex;
     background-image: url(imagens/fitesa-predio.jpg);
-    background-position: center top;
-    flex-wrap: nowrap;
-    justify-content: center;
-   
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section#caldeira {
-    display: flex;
     background-image: url(imagens/caldeira.jpg);
     background-position: right bottom;
-    justify-content: center;
-    flex-wrap: nowrap;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section#selecionados {
     background-image: url(imagens/alunos.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 div.txtcal > p {
