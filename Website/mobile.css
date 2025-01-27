@@ -52,22 +52,19 @@ header > div > img#logofutp {
 
 section#empresa {
     background-image: url(imagens/fitesa-predio.jpg);
-    background-position: top center;
-    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
 section#caldeira {
     background-image: url(imagens/caldeira.jpg);
-    background-position: right bottom;
-    background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
 section#selecionados {
     background-image: url(imagens/alunos.jpg);
-    background-position: top center;
-    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
