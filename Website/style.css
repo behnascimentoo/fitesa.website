@@ -87,14 +87,19 @@ div.txtcal {
 }
 
 section#empresa {
+    display: flex;
     background-image: url(imagens/fitesa-predio.jpg);
     background-position: center top;
-   
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 section#caldeira {
+    display: flex;
     background-image: url(imagens/caldeira.jpg);
     background-position: right bottom;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 section#selecionados {
