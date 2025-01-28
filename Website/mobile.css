@@ -50,7 +50,7 @@ header > div > img#logofutp {
 }
 
 section.imagem {
-    padding: 20px;
+    padding: 50px 0px 0px 5px;
 }
 
 section#empresa {
@@ -89,6 +89,21 @@ div.txtcal > p {
     padding-top: 10px;
     line-height: 1.4em;
 
+}
+div.fotos {
+
+}
+
+div#fotob {
+    border-radius: 30px 30px 30px 30px;
+}
+
+div#foton {
+    border-radius: 30px 30px 30px 30px;
+}
+
+div#fotor {
+    border-radius: 30px 30px 30px 30px;
 }
 
 div.alunos > p#txt  {
