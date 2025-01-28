@@ -49,6 +49,10 @@ header > div > img#logofutp {
     
 }
 
+section.imagem {
+    display: none;
+}
+
 section#empresa {
     background-color: #a0c7c4;
 }
