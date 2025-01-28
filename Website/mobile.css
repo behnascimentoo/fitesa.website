@@ -78,6 +78,7 @@ section#selecionados {
 
 section#selecionados > h1{
     font-size: 1.7em;
+    padding: 0px 10px 0px 10px;
 }
 
 div.txtcal {
