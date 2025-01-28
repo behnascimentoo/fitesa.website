@@ -53,23 +53,26 @@ section.imagem {
 }
 
 section#empresa {
-    
-    background-color: #a0c7c4;
+    background-image: none;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+
 }
 
 section#caldeira {
-    background-image: url(imagens/futuros\ possiveis.jpg);
+    background-image: none;
     background-size: cover;  
     background-position: center;  
-    background-color: #9de6b3;
+    background-color: black;
 }
 
 section#selecionados {
-    background-image: url(imagens/alunos.jpg);
+    background-image: none;
     background-size: cover;
     background-position: center;
+    background-color: black;
 }
 
 div.txtcal > p {
