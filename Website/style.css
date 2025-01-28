@@ -190,7 +190,7 @@ article.noah {
 }
 
 /* Config article fulana */
-div#fotom {
+div#fotor {
     background-image: url(imagens/brenda.jpg);
     background-position: top center;
     background-size: cover;
@@ -198,7 +198,7 @@ div#fotom {
 
 }
 
-article.manuela {
+article.rafaela {
         display: flex;
         justify-content: center;
         align-items: center;
