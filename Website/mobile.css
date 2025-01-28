@@ -50,6 +50,7 @@ header > div > img#logofutp {
 }
 
 section.imagem {
+    padding: 20px;
 }
 
 section#empresa {
@@ -75,6 +76,15 @@ section#selecionados {
     background-color: black;
 }
 
+div.txtcal {
+    margin: 100px 20px 20px 20px;
+}
+
+div.txtemp {
+    margin: 100px 20px 20px 20px;
+
+}
+
 div.txtcal > p {
     padding-top: 10px;
     line-height: 1.4em;
@@ -86,4 +96,6 @@ div.alunos > p#txt  {
     line-height: 1.4em;
 
 }
+
+
 
