@@ -76,6 +76,10 @@ section#selecionados {
     background-color: black;
 }
 
+section#selecionados > h1{
+    font-size: 1.7em;
+}
+
 div.txtcal {
     margin: 100px 20px 20px 20px;
 }
