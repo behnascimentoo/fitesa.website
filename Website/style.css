@@ -95,8 +95,8 @@ section#empresa {
 
 section#caldeira {
     display: flex;
-    background-image: url(imagens/caldeira.jpg);
-    background-position: right bottom;
+    background-image: url(imagens/futuros\ possiveis.jpg);
+    background-position: center;
     flex-wrap: wrap;
 }
 

@@ -50,20 +50,26 @@ header > div > img#logofutp {
 }
 
 section.imagem {
-    display: none;
 }
 
 section#empresa {
+    
     background-color: #a0c7c4;
+    background-size: cover;
+    background-position: center;
 }
 
 section#caldeira {
+    background-image: url(imagens/futuros\ possiveis.jpg);
+    background-size: cover;  
+    background-position: center;  
     background-color: #9de6b3;
 }
 
 section#selecionados {
     background-image: url(imagens/alunos.jpg);
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 div.txtcal > p {
