@@ -87,14 +87,17 @@ div.txtcal {
 
 div.txtemp {
     margin: 100px 20px 20px 20px;
-
 }
 
 div.txtcal > p {
     padding-top: 10px;
     line-height: 1.4em;
-
 }
+
+div.txtemp > p {
+    line-height: 1.4em;
+}
+
 div.fotos {
     width: 350px;
     height: 350px;
