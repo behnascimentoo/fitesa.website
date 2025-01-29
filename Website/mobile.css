@@ -95,6 +95,7 @@ div.txtcal > p {
 }
 
 div.txtemp > p {
+    padding-top: 10px;
     line-height: 1.4em;
 }
 
